@@ -54,6 +54,10 @@ export const AnimationContainer = styled.div`
         width: 340px;
         text-align: center;
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         h1 {
             margin-bottom: 24px;
         }
