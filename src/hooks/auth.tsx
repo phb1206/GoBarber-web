@@ -1,5 +1,4 @@
 import React, { createContext, useCallback, useContext, useState } from 'react';
-import { tokenToString } from 'typescript';
 import api from '../services/api';
 
 interface AuthState {
