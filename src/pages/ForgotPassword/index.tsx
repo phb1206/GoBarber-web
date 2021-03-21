@@ -62,7 +62,7 @@ const ForgotPassword: React.FC = () => {
                     type: 'error',
                     title: 'Password recover error',
                     description:
-                        'A error has ocurred while trying to recover your password, please try again',
+                        'An error has ocurred while trying to recover your password, please try again',
                 });
             } finally {
                 setLoading(false);
@@ -89,7 +89,7 @@ const ForgotPassword: React.FC = () => {
                         </Button>
                     </Form>
 
-                    <Link to="signin">
+                    <Link to="/">
                         <FiLogIn />
                         Back to login
                     </Link>
