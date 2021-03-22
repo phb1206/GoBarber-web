@@ -49,7 +49,7 @@ const ForgotPassword: React.FC = () => {
                 addToast({
                     type: 'success',
                     title: 'Password recover email sent',
-                    description: 'Chenck your inbox for further instructions',
+                    description: 'Check your inbox for further instructions',
                 });
             } catch (err) {
                 if (err instanceof Yup.ValidationError) {

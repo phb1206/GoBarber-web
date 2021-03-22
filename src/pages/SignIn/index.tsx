@@ -41,7 +41,7 @@ const SignIn: React.FC = () => {
                     abortEarly: false,
                 });
 
-                signIn(data);
+                await signIn(data);
             } catch (err) {
                 if (err instanceof Yup.ValidationError) {
                     const errors = getValidationErrors(err);
